@@ -36,8 +36,8 @@ subprojects {
 
     aliucord {
         author("GreenpeaceKT", 644526522811547659L)
-        updateUrl.set("https://raw.githubusercontent.com/GreenpeaceKT/bettercodeBlocks/builds/updater.json")
-        buildUrl.set("https://raw.githubusercontent.com/GreenpeaceKT/bettercodeBlocks/builds/%s.zip")
+        updateUrl.set("https://raw.githubusercontent.com/GreenpeaceKT/Aliucord-plugins/builds/updater.json")
+        buildUrl.set("https://raw.githubusercontent.com/GreenpeaceKT/Aliucord-plugins/builds/%s.zip")
     }
 
     android {
