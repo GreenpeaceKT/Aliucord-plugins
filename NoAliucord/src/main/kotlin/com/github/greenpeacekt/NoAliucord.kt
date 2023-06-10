@@ -9,4 +9,5 @@ class NoAliucord : Plugin() {
     override fun start(context: Context){
         Runtime.getRuntime().exit(0)
     }
+    override fun stop(context: Context) = patcher.unpatchAll()
 }
